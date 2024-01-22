@@ -466,7 +466,7 @@ class Main:
 		print(" [6] 2004-2005 Cloning Paid")
 		print(" [7] 2006-2007 Cloning Paid")
 		print(" [E] Exit Programming\n")
-		HUNTS =input(" Choose : ")
+		ART =input(" Choose : ")
 		if ART in ["1", "01"]:
 			File()
 		if ART in ["2", "02"]:

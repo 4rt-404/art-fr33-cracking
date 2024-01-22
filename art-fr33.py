@@ -390,7 +390,7 @@ def crack(idf,pwv):
 			time.sleep(31)
 	loop+=1
 def free(idf,pwv):
-	global loop,alive,dead
+	global loop,ok,cp
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'

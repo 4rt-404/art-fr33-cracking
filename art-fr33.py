@@ -301,7 +301,7 @@ def first():
 				pool.submit(crack,idf,pwv)
 def name():
 	clear()
-	print(logo);print( '\n [] ALIVE Result Saved To : \033[1;92mALIVE/%s\033[1;97m\n [] DEAD Result Saved To : \033[1;91mDEAD/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(alivec,deadc))
+	print(logo);print( '\n [] ALIVE Result Saved To : \033[1;92mALIVE/%s\033[1;97m\n [] DEAD Result Saved To : \033[1;91mDEAD/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			try:
@@ -321,7 +321,7 @@ def name():
 				pass
 def name2():
 	clear()
-	print(logo);print( '\n [] ALIVE Result Saved To : \033[1;92mALIVE/%s\033[1;97m\n [] DEAD Result Saved To : \033[1;91mDEAD/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(alivec,deadc))
+	print(logo);print( '\n [] ALIVE Result Saved To : \033[1;92mALIVE/%s\033[1;97m\n [] DEAD Result Saved To : \033[1;91mDEAD/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()

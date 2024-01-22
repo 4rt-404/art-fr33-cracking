@@ -351,11 +351,11 @@ def name2():
 	
 # CRACKER
 def crack(idf,pwv):
-	global loop,alive,dead
+	global loop,ok,cp
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[ ART ] %s•%s • ALIVE:%s • DEAD:%s  '%(bi,loop,len(id2),len(alive),dead)),
+	sys.stdout.write('\r %s[ ART ] %s•%s • ALIVE:%s • DEAD:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -394,7 +394,7 @@ def free(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[ ART ] %s•%s • ALIVE:%s • DEAD:%s  '%(bi,loop,len(id2),len(alive),dead)),
+	sys.stdout.write('\r %s[ ART ] %s•%s • ALIVE:%s • DEAD:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
